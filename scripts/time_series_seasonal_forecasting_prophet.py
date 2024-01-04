@@ -9,3 +9,10 @@ from statistics import mean
 
 import warnings
 warnings.filterwarnings("ignore")
+
+
+train_data = pd.read_csv("/Users/paramanandbhat/Downloads/8._prophet/data/train_data.csv")
+valid_data = pd.read_csv("/Users/paramanandbhat/Downloads/8._prophet/data/valid_data.csv")
+
+print(train_data.shape)
+print(train_data.head())
